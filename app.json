@@ -12,5 +12,8 @@
   "addons": ["heroku-postgresql:hobby-dev"],
   "website": "https://github.com/motdotla/rails-graphql-heroku-template",
   "repository": "https://github.com/motdotla/rails-graphql-heroku-template",
-  "logo": "https://raw.githubusercontent.com/motdotla/rails-graphql-heroku-template/master/rails-graphql-heroku-template.png"
+  "logo": "https://raw.githubusercontent.com/motdotla/rails-graphql-heroku-template/master/rails-graphql-heroku-template.png",
+  "scripts": {
+    "postdeploy": "bundle exec rake db:migrate"
+  }
 }
