@@ -1,0 +1,15 @@
+{
+  "name": "rails-graphql-heroku-template",
+  "description": "Rails GraphQL Heroku Template - The bare minimum for a rails app implementing GraphQL.",
+  "keywords": [
+    "graphql",
+    "graphiql",
+    "rails",
+    "relay",
+    "react",
+    "template"
+  ],
+  "website": "https://github.com/motdotla/rails-graphql-heroku-template",
+  "repository": "https://github.com/motdotla/rails-graphql-heroku-template",
+  "logo": "https://raw.githubusercontent.com/motdotla/rails-graphql-heroku-template/master/rails-graphql-heroku-template.png"
+}
