@@ -1,6 +1,6 @@
 # Rails GraphQL Heroku Template
 
-![](rails-graphql-heroku-template.jpg)
+![](rails-graphql-heroku-template.png)
 
 The bare minimum for a Rails app implementing GraphQL, running puma, and 
 hostable on Heroku (and elsewhere).
