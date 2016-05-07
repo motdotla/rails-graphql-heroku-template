@@ -9,6 +9,7 @@
     "react",
     "template"
   ],
+  "addons": ["heroku-postgresql:hobby-dev"],
   "website": "https://github.com/motdotla/rails-graphql-heroku-template",
   "repository": "https://github.com/motdotla/rails-graphql-heroku-template",
   "logo": "https://raw.githubusercontent.com/motdotla/rails-graphql-heroku-template/master/rails-graphql-heroku-template.png"
