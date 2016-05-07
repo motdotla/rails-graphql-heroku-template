@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  post '/graphql', to: 'graphql#query'
+  mount GraphiQL::Rails::Engine, at: "/graphiql", graphql_path: "/graphql"
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
